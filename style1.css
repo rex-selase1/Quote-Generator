@@ -31,11 +31,11 @@ body {
 }
 
 .quoteText {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .long-quote {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .fa-quote-left {
@@ -107,11 +107,19 @@ button:active {
 
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
-  .quote-container {
+  .quoteContainer {
     margin: auto 10px;
   }
 
-  .quote-text {
+  .quoteText {
     font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .quoteText {
+    font-size: 2rem;
+  }
+  .quoteAuthor{
+    font-size: 1.3rem
   }
 }
